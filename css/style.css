@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+body { font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #111; }
+ins { background: #fff; }
+article a { color: #444; }
+article a:hover { color: #000; }
+i.count { width: 20px; }
+#footer { background: #252525; padding: 50px 0; color: #ddd; }
+#footer a { color: #ddd; }
+#footer a:hover { color: #fff; }
+.uk-badge { padding: 5px; background: #666; }
+.uk-grid li a { color: #000; }
+.uk-grid li a:hover { color: #666; }
+.uk-navbar { background: #fff; border-bottom: 1px solid #ddd; }
+.uk-navbar .uk-navbar-brand { padding: 0 5px; }
+.uk-navbar .uk-navbar-brand a { color: #000; text-decoration: none; }
+.uk-comment-header { margin-bottom: 15px; padding: 10px; border: 1px solid #e5e5e5; border-radius: 4px; background: #fafafa; }
+.uk-comment-header:after, .uk-comment-header:before { content: ""; display: table; }
+.uk-pagination { padding: 0; list-style: none; text-align: center; font-size: 0; }
+.uk-pagination:after, .uk-pagination:before { content: ""; display: table; }
+.uk-pagination:after { clear: both; }
+.uk-pagination > li { display: inline-block; font-size: 1rem; vertical-align: top; }
+.uk-pagination > li:nth-child(n+2) { margin-left: 5px; }
+.uk-pagination > li > a, .uk-pagination > li > span { display: inline-block; min-width: 16px; padding: 3px 5px; line-height: 20px; text-decoration: none; -moz-box-sizing: content-box; box-sizing: content-box; text-align: center; border-radius: 4px; }
+.uk-pagination > li > a { background: #fafafa; color: #666; border: 1px solid #e5e5e5; }
+.uk-pagination > li > a:focus, .uk-pagination > li > a:hover { background-color: #fff; color: #000; outline: 0; }
+.uk-pagination > li > a:active { background-color: #f5f5f5; color: #666; }
+.uk-pagination > li > span.current { background: #000; color: #fff; border: 1px solid #000; }
+.uk-pagination > .uk-disabled > span { background-color: #fafafa; color: #999; border: 1px solid #e5e5e5; }
+.uk-pagination-previous { float: left; }
+.uk-pagination-next { float: right; }
+.uk-pagination-left { text-align: left; }
+.uk-pagination-right { text-align: right; }
